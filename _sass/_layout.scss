@@ -364,6 +364,12 @@ form button {
     float:right;
 }
 
+form .uploadcare-widget{
+    float:left;
+    display: inline-block;
+    padding-left: 0;
+}
+
 .flat-button, .uploadcare-widget-button, .uploadcare-widget-button-cancel{
     outline: 0;
     border: none;

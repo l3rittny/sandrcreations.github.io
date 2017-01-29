@@ -4,12 +4,15 @@ title: Contact
 description: "Contact us for design and order requests and price quotes."
 permalink: /contact/
 ---
+
+<p>You can upload an image of your idea to help us design the perfect product for you.</p>
+
 <form id="contactform" method="POST">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="_replyto" placeholder="Your email">
-    <input type="hidden" name="_subject" value="Website contact" />
     <!-- This is where the widget will be. Don't forget the name attribute! -->
-    <input type="hidden" role="uploadcare-uploader" name="my_file" />
+    <input class="uploader" type="hidden" role="uploadcare-uploader" name="my_file" />
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="email" name="_replyto" placeholder="Your email" required>
+    <input type="hidden" name="_subject" value="Website contact" />
     <textarea name="message" placeholder="Your message"></textarea>
     <input type="text" name="_gotcha" style="display:none" />
     <button class="btn flat-button" type="submit" name="action">
