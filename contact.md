@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Contact
+description: "Contact us for design and order requests and price quotes."
 permalink: /contact/
 ---
-Contact us for commission requests and price quotes.
 <form id="contactform" method="POST">
     <input type="text" name="name" placeholder="Your name">
     <input type="email" name="_replyto" placeholder="Your email">

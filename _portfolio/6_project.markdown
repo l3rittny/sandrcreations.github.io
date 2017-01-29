@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stained Glass Cross
-description: a project with no image
+description: Celebrate your passions through stained glass.
 img: /img/prods/glass.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stained Glass Diamond Window
-description: a project with a background image
+description: Add an extra something to your windowws and kitchen cabinets with stained glass.
 img: /img/prods/window.jpg
 ---
 

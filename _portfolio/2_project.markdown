@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Butterflies on Driftwood
-description: a project with a background image
+description: Enjoy summer all year round with this natural driftwood decor. 
 img: /img/prods/butterflywood.jpg
 ---
 

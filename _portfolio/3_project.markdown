@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Grecian Mosaic Mirror
-description: a project with a background image
+description: Add luxury to your home with grecian mosiacs. 
 img: /img/prods/mirror.jpg
 ---
 

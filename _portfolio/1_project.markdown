@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hanging Rose
-description: a project with a background image
+description: A pretty pink rose to hang on your wall.
 img: /img/prods/rose.jpg
 ---
 

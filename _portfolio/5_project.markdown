@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Elegant Pendant
-description: a project with a background image
+description: Request custom jewlery for the people you care about.
 img: /img/prods/necklace2.jpg
 ---
 
