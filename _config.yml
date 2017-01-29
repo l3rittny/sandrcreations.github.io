@@ -14,11 +14,8 @@ markdown: kramdown
 highlighter: pygments
 
 # Pagination
-paginate: 5
+paginate: 6
 paginate_path: "/portfolio/page:num/"
-
-gems:
-  - octopress-paginate
 
 collections:
   portfolio:

@@ -1,4 +1,4 @@
 group :jekyll_plugins do
-  gem 'octopress-paginate'
+  gem 'jekyll-paginate'
   gem 'github-pages'
 end

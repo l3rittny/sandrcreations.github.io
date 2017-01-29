@@ -5,21 +5,21 @@ description: "<a href='/contact' target='_blank'>Contact us</a> for design reque
 paginate: true
 ---
 
-{% for project in paginator.posts %}
+{% for post in paginator.posts %}
 
-{% if project.redirect %}
+{% if post.redirect %}
 <div class="project">
     <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
+        <a href="{{ post.redirect }}" target="_blank">
+        {% if post.img %}
+        <img class="thumbnail" src="{{ post.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
+            <h1>{{ post.title }}</h1>
             <br/>
-            <p>{{ project.description }}</p>
+            <p>{{ post.description }}</p>
         </span>
         </a>
     </div>
@@ -28,16 +28,16 @@ paginate: true
 
 <div class="project ">
     <div class="thumbnail">
-        <a href=""> <!-- {{ site.baseurl }}{{ project.url }} -->
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
+        <a href=""> <!-- {{ site.baseurl }}{{ post.url }} -->
+        {% if post.img %}
+        <img class="thumbnail" src="{{ post.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
         <span>
-            <h1>{{ project.title }}</h1>
+            <h1>{{ post.title }}</h1>
             <br/>
-            <p>{{ project.description }}</p>
+            <p>{{ post.description }}</p>
         </span>
         </a>
     </div>
@@ -46,6 +46,21 @@ paginate: true
 {% endif %}
 
 {% endfor %}
+
+<!-- Pagination links -->
+<!--div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div-->
 
 
 {% if paginator.total_pages > 1 %}
