@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project
+title: Stained Glass Cross
 description: a project with no image
 img: /img/prods/glass.jpg
 ---

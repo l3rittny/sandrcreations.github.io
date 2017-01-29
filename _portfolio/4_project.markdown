@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project
+title: Stained Glass Diamond Window
 description: a project with a background image
 img: /img/prods/window.jpg
 ---

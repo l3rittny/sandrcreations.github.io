@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project
+title: Grecian Mosaic Mirror
 description: a project with a background image
 img: /img/prods/mirror.jpg
 ---

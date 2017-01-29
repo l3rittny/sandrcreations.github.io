@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project
+title: Butterflies on Driftwood
 description: a project with a background image
 img: /img/prods/butterflywood.jpg
 ---

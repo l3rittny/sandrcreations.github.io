@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Project
+title: Elegant Pendant
 description: a project with a background image
 img: /img/prods/necklace2.jpg
 ---
