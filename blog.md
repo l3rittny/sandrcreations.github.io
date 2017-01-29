@@ -2,8 +2,9 @@
 layout: page
 title: Blog
 permalink: /blog/
+paginate: true
 ---
-Recent Articles
+<h1>Recent Articles</h1>
 <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
