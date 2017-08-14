@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-description: "Contact us for design and order requests and price quotes."
+description: "Fill out the form below to contact us for design or order requests and price quotes."
 permalink: /contact/
 ---
 

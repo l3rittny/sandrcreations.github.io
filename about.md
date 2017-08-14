@@ -8,7 +8,7 @@ permalink: /about/
 <!--img class="col one right" src="/img/prof_pic.jpg"-->
 
 <br/>
-<p>Write your biography here.</p>
+<!--p>Write your biography here.</p-->
 
 <br/>
 <hr/>
