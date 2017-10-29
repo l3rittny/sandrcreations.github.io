@@ -1,7 +1,8 @@
 ---
 layout: page
-title: portfolio
-permalink: /portfolio/
+title: Portfolio
+description: "<a href='/contact' target='_blank'>Contact us</a> for design requests and quotes."
+permalink: /portfolio_old/
 ---
 
 {% for project in site.portfolio %}

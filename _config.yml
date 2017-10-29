@@ -4,7 +4,7 @@ email: you@example.com
 description: > # this means to ignore newlines until "baseurl:"
   Beautiful stained glass decor and jewlery.
 baseurl:  ''# the subpath of your site, e.g. /blog/
-url: '' # the base hostname & protocol for your site
+url: 'sandrcreations.com' # the base hostname & protocol for your site
 twitter_username: twitter_username
 github_username:  github_username
 
@@ -14,9 +14,8 @@ markdown: kramdown
 highlighter: pygments
 
 # Pagination
-paginate: 15
-paginate_path: "/blog/page:num/"
-
+paginate: 6
+paginate_path: "/portfolio/page:num/"
 
 collections:
   portfolio:

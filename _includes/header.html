@@ -1,6 +1,6 @@
 <header class="site-header">
 
-  <a class="site-title" href="{{ site.baseurl }}"><h3>{{ site.title }}</h3></a>
+  <a class="site-title" href="/{{ site.baseurl }}"><img src="/img/bluebirdl.svg" width="40px" height="32x"></img><h3>{{ site.title }}</h3></a>
 
     <nav class="site-nav">
 
@@ -11,15 +11,18 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}-->
+          <a class="page-link" href="/">
+            <h4>Home</h4>
+          </a>
           <a class="page-link" href="/about">
             <h4>About</h4>
           </a>
           <a class="page-link" href="/portfolio">
             <h4>Portfolio</h4>
           </a>
-          <a class="page-link" href="/blog">
+          <!--a class="page-link" href="/blog">
             <h4>Blog</h4>
-          </a>
+          </a-->
           <a class="page-link" href="/contact">
             <h4>Contact</h4>
           </a>
