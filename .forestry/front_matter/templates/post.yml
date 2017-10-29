@@ -1,0 +1,33 @@
+---
+pages:
+- _posts/birds-on-drftwood.md
+hide_body: false
+fields:
+- name: layout
+  type: text
+  label: Layout
+  hidden: true
+  description: which template to use
+  default: post
+  config:
+    required: true
+- name: title
+  type: text
+  label: Title
+  description: The title of your product
+  config:
+    required: true
+- name: description
+  type: text
+  label: Description
+  description: A description of your product
+  config:
+    required: true
+- type: image_gallery
+  label: Image
+  name: img
+  description: A picture of your product
+  config:
+    required: true
+    source:
+      type: datafiles
