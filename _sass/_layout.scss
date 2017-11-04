@@ -484,24 +484,33 @@ form * {
 
 
 
-.site-header {
+.navbar {
+    background-color: #021a13 !important;
+    width: 76% !important;
+    margin: 0px 12% !important;
+    padding: 0.2rem 0.5rem !important;
     a {
-        h4 {
-            color: #eaeaea !important;
-        }
+        font-family: 'Roboto Slab', serif;
+        color: #eaeaea !important;
     }
 
     a:hover {
         text-decoration: none !important;
-        h4 {
-            color: white !important;
-        }
+        color: white !important;
     }
 
     a.active {
         border-bottom: 3px solid #019e82;
-        h4 {
-            color: white !important;
-        }
+        color: white !important;
     }
 }
+
+@include media-query($on-palm) {
+    .home-page-content, .site-footer, #contactform, .navbar {
+        //opacity: 1;
+        width: 100%;
+        margin: 0 !important;
+    }
+}
+
+//@media screen and (max-width: 800px) {
