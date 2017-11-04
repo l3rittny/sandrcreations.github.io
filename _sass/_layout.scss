@@ -51,6 +51,18 @@
         line-height: 7.5rem;    
     }
 }
+    @media screen and (max-width: 460px) {
+        .header-image  h1 {  
+            font-size: 3rem;
+            line-height: 3rem;    
+        }
+    }
+    @media screen and (max-width: 980px) {
+        .header-image  h1 {  
+            font-size: 5rem;
+            line-height: 5rem;    
+        }
+    }
 
 .header-image:after {
   content: "";
