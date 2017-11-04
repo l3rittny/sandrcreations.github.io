@@ -8,14 +8,7 @@ permalink: "/about/"
 <div style="max-width: calc(800px - (50px * 2));margin: auto;">
 
 <!--img class="col one right" src="/img/prof_pic.jpg"-->
-  <header class="header-bar">
-    <h1>{{ page.title }}</h1>
-    <h5 style="margin-top: 25px;">{{ page.description }}</h5>
-    <br>
-    <hr>
-    <br>
-  </header>
-  <br/>
+
   <!--p>Write your biography here.</p-->
   <span class="contacticon center">
   	<a href="/contact"><i class="fa fa-envelope-square"></i></a>
