@@ -55,15 +55,15 @@ $theme-color:   $grey-color-dark;
  */
 
  html {
-    background-color: $offwhite;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #021a13;//$offwhite;
+    background-color: #021a13 !important; // #021a13;//$offwhite;
+    font-size: 1.2rem;
  }
 
 body {
-    height: 100%;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     font-family: $base-font-family;
@@ -71,8 +71,14 @@ body {
     line-height: $base-line-height;
     font-weight: 100;
     color: $text-color;
-    background-color: #021a13;//$offwhite;
+    background-color: #021a13;//h#021a13;//$offwhite;
     -webkit-text-size-adjust: 100%;
+    font-size: 1.2rem;
+    background: url("/img/kalei.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
 }
 
 
@@ -135,7 +141,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
-    font-family: 'Lora', serif;
+    font-family: 'Roboto Slab', serif;
     color: $text-color;
 }
 
@@ -248,3 +254,7 @@ pre {
 
 
 
+hr {
+    border-top: 1px solid rgb(162, 162, 162);
+    border-bottom: 1px solid rgba(134, 134, 134, 0.3);
+}

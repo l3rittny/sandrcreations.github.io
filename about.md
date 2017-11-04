@@ -1,18 +1,20 @@
 ---
-layout: page
+layout: home
 title: About
 description: "We have a passion for making handcrafted glass decor, jewlery, and more."
 permalink: /about/
 ---
 
 <!--img class="col one right" src="/img/prof_pic.jpg"-->
-
+  <header class="header-bar">
+    <h1>{{ page.title }}</h1>
+    <h5 style="margin-top: 25px;">{{ page.description }}</h5>
+    <br>
+    <hr>
+    <br>
+  </header>
 <br/>
 <!--p>Write your biography here.</p-->
-
-<br/>
-<hr/>
-<br/>
 <span class="contacticon center">
 	<a href="/contact"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
@@ -24,3 +26,6 @@ permalink: /about/
 	You can even add a little note about which of these is the best way to reach you.
 </div-->
 
+<script type="text/javascript">
+	$('#about').addClass('active');
+</script>

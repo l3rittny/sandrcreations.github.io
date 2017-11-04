@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 
@@ -7,15 +9,29 @@
 
     {% include header.html %}
 
+  <!--div class="sign">
+  </div-->
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="home-page-content">
+      <div class="wrapper home-wrapper reveal-full-size">
         {{ content }}
       </div>
     </div>
-
     {% include footer.html %}
 
   </body>
+
+  <!--Scroll loading-->
+ <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+ 
+ <script type="text/javascript">
+  // Changing the defaults
+  window.sr = ScrollReveal({ reset: true }); //
+  sr.reveal('.reveal-full-size', { reset: false, scale: 1,duration: 1000 });
+  // Customizing a reveal set
+  sr.reveal('.reveal', { duration: 1500 });
+  console.log('reveal');
+  var rellax = new Rellax('.rellax');
+ </script>
 
 </html>

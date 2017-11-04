@@ -73,7 +73,7 @@ display: inline-block;
 
 .header-bar{
     left: 0px;
-    top: 0px;
+    top: 0px;//40px;
     position: relative;
     font-size: 20px;
     display: block;
@@ -86,7 +86,7 @@ display: inline-block;
     line-height: 3em;
     z-index: 100;
     h1{
-        color: $theme-color;
+        color: white;//$theme-color;
         font-size:75px;
     }
     h2{
@@ -128,9 +128,10 @@ display: inline-block;
     background-color: #021a13;
     padding: 5px;
     color: $text-color;
-    position: fixed;
+    //position: fixed;
     left: 0px;
-    bottom: 0px;
+    margin-top: -1vh;
+    //top: 94vh;
     height: 40px;
     opacity: 1;
     width: 76%;
@@ -142,6 +143,10 @@ display: inline-block;
         display: inline-block;
         width: 100%;
     }
+}
+
+.footer-visable-short {
+    margin-top: -9vh !important;
 }
 
 /**
@@ -158,7 +163,7 @@ bottom: 50px;
 .paginationicon {
 font-size: 50px;
 a {
-color: $theme-color;
+color: white;//$theme-color;
     }
 }
 /**
@@ -211,7 +216,7 @@ color: $theme-color;
 
 .page-content {
     background-color: #021a13;//$offwhite;
-
+    min-height: 100vh;
     //background-color: $green-light;//$offwhite;
     padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
@@ -446,11 +451,57 @@ form .uploadcare-widget{
     background-color: #021a13;
     padding: 5px;
     color: #fefefe;
-    position: fixed;
+    //position: fixed;
     left: 0px;
     bottom: 0px;
-    height: 100vh;
+    //height: 100vh;
     opacity: 1;
     width: 76%;
     margin: 0px 12%;
+    min-height: 100vh;
+}
+
+.home-wrapper {
+    margin-top: 20vh;
+}
+
+a {
+    color: #fafafa !important;
+    font-weight: bold !important;
+    //text-decoration: underline !important;
+}
+
+a:hover {
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+form * {
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+    font-weight: normal;
+}
+
+
+
+.site-header {
+    a {
+        h4 {
+            color: #eaeaea !important;
+        }
+    }
+
+    a:hover {
+        text-decoration: none !important;
+        h4 {
+            color: white !important;
+        }
+    }
+
+    a.active {
+        border-bottom: 3px solid #019e82;
+        h4 {
+            color: white !important;
+        }
+    }
 }

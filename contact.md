@@ -21,6 +21,9 @@ permalink: /contact/
 	  </button>
     <input type="hidden" name="_next" value="/thanks" />
 </form>
+<script type="text/javascript">
+    $('#contact').addClass('active');
+</script>
 <script>
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'admin@sandrcreations.com');//l3rittny.l' + '@' + 'gmail' + '.' + 'com');
