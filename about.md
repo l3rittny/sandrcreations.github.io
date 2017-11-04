@@ -1,8 +1,9 @@
 ---
 layout: home
 title: About
-description: "We have a passion for making handcrafted glass decor, jewlery, and more."
-permalink: /about/
+description: We have a passion for making handcrafted stained glass decor, including
+  stepping stones, sun catchers, cupboard doors, and more.
+permalink: "/about/"
 ---
 <div style="max-width: calc(800px - (50px * 2));margin: auto;">
 

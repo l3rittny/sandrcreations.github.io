@@ -27,5 +27,5 @@ permalink: /contact/
 </script>
 <script>
     var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'admin@sandrcreations.com');//l3rittny.l' + '@' + 'gmail' + '.' + 'com');
+    contactform.setAttribute('action', '//formspree.io/' + 'shelley@sandrcreations.com');//l3rittny.l' + '@' + 'gmail' + '.' + 'com');
 </script>
