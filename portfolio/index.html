@@ -5,6 +5,7 @@ description: "<a href='/contact' target='_blank'>Contact us</a> for design reque
 paginate: true
 ---
 
+<div class="projects-grid wrapper">
 {% for post in paginator.posts %}
 
 {% if post.redirect %}
@@ -46,7 +47,7 @@ paginate: true
 {% endif %}
 
 {% endfor %}
-
+</div>
 <!-- Pagination links -->
 <!--div class="pagination">
   {% if paginator.previous_page %}

@@ -30,6 +30,34 @@
     }
 }
 
+.header-image {
+    text-align: center;
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+    margin-bottom: 35px;
+    background: url("/img/kalei.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-top: 50px;
+    height: 53vh;
+    padding: 3.5% 0;
+    font-weight: 800 !important;
+    font-family: 'Berkshire Swash', serif;
+    width: 100vw;
+    margin-left: -5px;
+    color:white !important;
+}
+
+.header-image:after {
+  content: "";
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0; 
+  background: rgba(255, 255,255, 0.15);
+  pointer-events: none;
+}
+
 .site-title {
 font-size: 20px;
 line-height: $nav-height;
@@ -85,8 +113,9 @@ display: inline-block;
     //padding-top: 25px;
     line-height: 3em;
     z-index: 100;
+    margin-top: 14vh !important;
     h1{
-        color: white;//$theme-color;
+        color: $theme-color !important;
         font-size:75px;
     }
     h2{
@@ -125,7 +154,7 @@ display: inline-block;
  */
 .site-footer {
     font-size: 10px;
-    background-color: #021a13;
+    background-color: #a09884;
     padding: 5px;
     color: $text-color;
     //position: fixed;
@@ -134,8 +163,7 @@ display: inline-block;
     //top: 94vh;
     height: 40px;
     opacity: 1;
-    width: 76%;
-    margin: 0px 12%;
+    width: 100%;
     div p {
         text-align: center;
         font-size: 0.7rem;
@@ -146,7 +174,7 @@ display: inline-block;
 }
 
 .footer-visable-short {
-    margin-top: -16vh !important;
+    //margin-top: -16vh !important;
     z-index: 1000000;
 }
 
@@ -164,7 +192,7 @@ bottom: 50px;
 .paginationicon {
 font-size: 50px;
 a {
-color: white;//$theme-color;
+color: $theme-color;
     }
 }
 /**
@@ -314,14 +342,22 @@ display: table;
 .clearfix:after {
 clear: both;
 }
-.projects{}
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+}
 .project {
-width: 33.33%;
+width: 300px;
 height: 350px;
 float: left;
 vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
+color: white !important;
+h1 {
+color: white !important;
+
+}
 }
 .thumbnail{
 width: 100%;
@@ -449,7 +485,7 @@ form .uploadcare-widget{
 //HOME
 .home-page-content {
     font-size: 10px;
-    background-color: #021a13;
+    background-color: $offwhite;//#2d2d2d;//#50bc9c;//#021a13;
     padding: 5px;
     color: #fefefe;
     //position: fixed;
@@ -457,9 +493,10 @@ form .uploadcare-widget{
     bottom: 0px;
     //height: 100vh;
     opacity: 1;
-    width: 76%;
-    margin: 0px 12%;
+    //width: 76%;
+    //margin: 0px 12%;
     min-height: 100vh;
+    padding-bottom:50px;
 }
 
 .home-wrapper {
@@ -468,13 +505,13 @@ form .uploadcare-widget{
 }
 
 a {
-    color: #fafafa !important;
+    color: #333 !important;
     font-weight: bold !important;
     //text-decoration: underline !important;
 }
 
 a:hover {
-    color: white !important;
+    color: #666 !important;
     text-decoration: underline !important;
 }
 
@@ -487,24 +524,28 @@ form * {
 
 
 .navbar {
-    background-color: #021a13 !important;
-    width: 76% !important;
-    margin: 0px 12% !important;
+    border-bottom: 1px solid #ddd;
+    background-color: $offwhitedark !important;
+    //width: 76% !important;
+    //margin: 0px 12% !important;
     padding: 0.2rem 0.5rem !important;
-    min-height:50px;
+    min-height: 55px;
     a.nav-link {
-        font-family: 'Roboto Slab', serif;
-        color: #eaeaea !important;
+        font-family: 'Lora', serif;
+        color: #333 !important;
+        padding: 0.2em 1em  !important;
+        font-weight: 100 !important;
+        font-size: 20px !important;
     }
 
     a:hover {
         text-decoration: none !important;
-        color: white !important;
+        color: #666 !important;
     }
 
     a.active {
-        border-bottom: 3px solid #019e82;
-        color: white !important;
+        //border-bottom: 2px solid #007d6a80;
+         color: #666  !important; //white
     }
 
     .navbar-nav {
@@ -521,3 +562,7 @@ form * {
 }
 
 //
+.uploader{
+    padding: 10px !important;
+    text-align: center !important;
+}

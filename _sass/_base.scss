@@ -58,7 +58,7 @@ $theme-color:   $grey-color-dark;
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #021a13 !important; // #021a13;//$offwhite;
+    background-color: #a09884 !important; // #021a13;//$offwhite;
     font-size: 1.2rem;
  }
 
@@ -71,7 +71,7 @@ body {
     line-height: $base-line-height;
     font-weight: 100;
     color: $text-color;
-    background-color: #021a13;//h#021a13;//$offwhite;
+    background-color: #a09884;//h#021a13;//$offwhite;
     -webkit-text-size-adjust: 100%;
     font-size: 1.2rem;
     background: url("/img/kalei.jpg");
@@ -141,8 +141,8 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
-    font-family: 'Roboto Slab', serif;
-    color: $text-color;
+    font-family: 'Lora', serif;
+    color: black !important;
 }
 
 
@@ -255,6 +255,6 @@ pre {
 
 
 hr {
-    border-top: 1px solid rgb(162, 162, 162);
-    border-bottom: 1px solid rgba(134, 134, 134, 0.3);
+    border-top: 1px solid rgba(0,0,0,0.1);
+border-bottom: 1px solid rgba(255,255,255,0.3);
 }
