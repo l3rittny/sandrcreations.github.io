@@ -184,10 +184,20 @@ display: inline-block;
 .pagination{
 max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
 text-align: center;
-width: 100%;
-position: fixed;
+width: 40%;
+float:left;
+//position: fixed;
 bottom: 50px;
+font-size:14px;
     margin:auto;
+    span {
+        margin-left:15px;
+        margin-right:15px;
+    }
+    a {
+        margin-left:5px;
+        margin-right:5px;
+    }
 }
 .paginationicon {
 font-size: 50px;
@@ -487,7 +497,7 @@ form .uploadcare-widget{
     font-size: 10px;
     background-color: $offwhite;//#2d2d2d;//#50bc9c;//#021a13;
     padding: 5px;
-    color: #fefefe;
+    color: #333;
     //position: fixed;
     left: 0px;
     bottom: 0px;
