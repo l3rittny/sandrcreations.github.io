@@ -37,8 +37,13 @@ $beige: #a09884;
 $grey-color-dark: #333;   /* footer */
 $grey-color-med: #555;   /* footer */
 $grey-color-light: #ddd;  /* navigation bar border */
-$text-color:     #666;
+$text-color:  #fefefe;   //#666;
 
+
+$green-light: #f6fdf8;
+$green-medium: #e9f9f4;
+$green-medium-dark: #b3ddcb;
+$green-dark: #00894e;
 /* Set theme color *************************/
 $theme-color:   $grey-color-dark;
 
@@ -54,6 +59,7 @@ $theme-color:   $grey-color-dark;
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #021a13;//$offwhite;
  }
 
 body {
@@ -65,7 +71,7 @@ body {
     line-height: $base-line-height;
     font-weight: 100;
     color: $text-color;
-    background-color: $offwhite;
+    background-color: #021a13;//$offwhite;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -130,7 +136,7 @@ li {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
     font-family: 'Lora', serif;
-    color: black;
+    color: $text-color;
 }
 
 
