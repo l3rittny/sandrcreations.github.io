@@ -32,8 +32,6 @@
 
 .header-image {
     text-align: center;
-    font-size: 7.5rem;
-    line-height: 7.5rem;
     margin-bottom: 35px;
     background: url("/img/kalei.jpg");
     background-repeat: no-repeat;
@@ -43,11 +41,15 @@
     margin-top: 50px;
     height: 53vh;
     padding: 3.5% 0;
-    font-weight: 800 !important;
-    font-family: 'Berkshire Swash', serif;
     width: 100vw;
     margin-left: -5px;
-    color:white !important;
+    h1 {
+        font-weight: 800 !important;
+        font-family: 'Berkshire Swash', serif;
+        color:white !important;  
+        font-size: 7.5rem;
+        line-height: 7.5rem;    
+    }
 }
 
 .header-image:after {

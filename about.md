@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: About
 description: We have a passion for making handcrafted stained glass decor, including
   stepping stones, sun catchers, cupboard doors, and more.
