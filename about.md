@@ -1,9 +1,10 @@
 ---
 layout: page
 title: About
-description: "We have a passion for making handcrafted stained glass decor, including
-  stepping stones, sun catchers, cupboard doors, and more.\n\nPlease note that we
-  are posted new pictures often. "
+description: |-
+  We have a passion for making handcrafted stained glass decor, including stepping stones, sun catchers, cupboard doors, and more.
+
+  Please note that we update the Portfolio pictures often. Check in with us often.
 permalink: "/about/"
 ---
 <!--img class="col one right" src="/img/prof_pic.jpg"-->
