@@ -1,33 +1,20 @@
-<header class="site-header">
-
-  <a class="site-title" href="/{{ site.baseurl }}"><img src="/img/bluebirdl.svg" width="40px" height="32x"></img><h3>{{ site.title }}</h3></a>
-
-    <nav class="site-nav">
-
-      <div class="trigger">
-        <!---
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}-->
-          <a class="page-link" href="/">
-            <h4>Home</h4>
-          </a>
-          <a class="page-link" href="/about">
-            <h4>About</h4>
-          </a>
-          <a class="page-link" href="/portfolio">
-            <h4>Portfolio</h4>
-          </a>
-          <!--a class="page-link" href="/blog">
-            <h4>Blog</h4>
-          </a-->
-          <a class="page-link" href="/contact">
-            <h4>Contact</h4>
-          </a>
-
+<header>
+  <nav class="navbar navbar-light bg-faded navbar-toggleable-md fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+    </button>
+    <a class="navbar-brand" href="/">
+        <img src="/img/bluebirdl.svg" height="32x" width="40px">S & R Creations</span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" id="home" href="/">Home</a>
+        <a class="nav-item nav-link" id="about" href="/about">About</a>
+        <a class="nav-item nav-link" id="portfolio" href="/portfolio">Portfolio</a>
+        <a class="nav-item nav-link" id="contact" href="/contact">Contact</a>
       </div>
-    </nav>
-
+    </div>
+  </nav>
 </header>
+
+

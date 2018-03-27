@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Portfolio
-description: "<a href='/contact' target='_blank'>Contact us</a> for design requests and quotes."
+description: "<a href='/contact' target='_blank'>Contact us</a> for design requests
+  and quotes."
 paginate: true
 ---
 
+<div class="projects-grid wrapper">
 {% for post in paginator.posts %}
 
 {% if post.redirect %}
@@ -46,7 +48,7 @@ paginate: true
 {% endif %}
 
 {% endfor %}
-
+</div>
 <!-- Pagination links -->
 <!--div class="pagination">
   {% if paginator.previous_page %}
@@ -88,3 +90,7 @@ paginate: true
   {% endif %}
 </div>
 {% endif %}
+
+<script type="text/javascript">
+  $('#portfolio').addClass('active');
+</script>

@@ -1,0 +1,62 @@
+---
+pages:
+- _posts/2017-11-16-turtles-stepping-stones.md
+- _posts/2017-11-16-night-light.md
+- _posts/2017-11-16-kitchen-cupboard.md
+- _posts/2017-11-16-stepping-stone-flowers.md
+- _posts/2017-11-16-c.md
+- _posts/2017-11-15-8th-annual-trunk-sale-at-marlin-s-orchard.md
+- _posts/2017-11-15-horse.md
+- _posts/2017-11-14-dog.md
+- _posts/2017-11-14-golden-lab.md
+- _posts/2017-11-14-garden-spade.md
+- _posts/2017-11-14-picture-frame.md
+- _posts/2017-11-14-butterfly-and-flower.md
+- _posts/2017-11-14-christmas-tree.md
+- _posts/2017-11-14-mushroom.md
+- _posts/2017-11-14-wine-glasses.md
+- _posts/2017-11-14-picture-frame.md
+- _posts/2017-11-13-dog-picture-frames.md
+- _posts/2017-11-13-snowman.md
+- _posts/2017-11-13-christmas-stars.md
+- _posts/2017-11-13-christmas-icicles.md
+- _posts/2017-11-13-christmas-balls.md
+- _posts/2017-11-13-christmas-decoration.md
+- _posts/2017-11-13-christmas-decoration.md
+- _posts/2017-11-13-small-fish.md
+- _posts/2017-11-13-christmas.md
+- _posts/2017-11-13-christmas-decorations.md
+- _posts/2017-11-13-plant-stakes.md
+- _posts/2017-11-13-corner-wall-sun-catcher.md
+- _posts/2017-11-03-birds-on-drftwood.md
+- _portfolio/christmas-stakes.md
+hide_body: false
+fields:
+- name: layout
+  type: text
+  label: Layout
+  hidden: true
+  description: which template to use
+  default: post
+  config:
+    required: true
+- name: title
+  type: text
+  label: Title
+  description: The title of your product
+  config:
+    required: true
+- name: description
+  type: text
+  label: Description
+  description: A description of your product
+  config:
+    required: true
+- type: image_gallery
+  label: Image
+  name: img
+  description: A picture of your product
+  config:
+    required: true
+    source:
+      type: datafiles
