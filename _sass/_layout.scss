@@ -287,6 +287,9 @@ margin-bottom: $vertical-spacing-unit;
 font-size: 60px;
 display:block;
 margin: 10px;
+    i { 
+        font-size: 60px !important;
+    }
 }
 .center{
 text-align: center;
