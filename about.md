@@ -17,7 +17,7 @@ permalink: "/about/"
 
 <a href="/contact"><i class="fa fa-envelope-square"></i></a>
 
-a href="https://www.linkedin.com/in/shelley-burnell-04284857/https://www.linkedin.com/in/shelley-burnell-04284857/" target="_blank">
+<a href="https://www.linkedin.com/in/shelley-burnell-04284857/https://www.linkedin.com/in/shelley-burnell-04284857/" target="_blank">
 
 <i class="fa fa-linkedin-square"></i>
 
